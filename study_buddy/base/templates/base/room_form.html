@@ -3,7 +3,7 @@
 {% block content %}
 
 <div>
-    <form action="POST" action="">
+    <form action="POST" action="room_form">
         {% csrf_token %}
         {{form.as_p}}
         <input type="submit" value="submit" />
